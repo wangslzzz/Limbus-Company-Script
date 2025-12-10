@@ -1,0 +1,128 @@
+{
+    "img/main_interface.png": [
+        1373,
+        154,
+        510,
+        135
+    ],
+    "img/drivers_seat.png": [
+        1380,
+        207,
+        452,
+        154
+    ],
+    "img/choose_team.png": [
+        104,
+        458,
+        172,
+        35
+    ],
+    "img/choose_team2.png": [
+        1612,
+        824,
+        129,
+        52
+    ],
+    "img/choose_starlight.png": [
+        224,
+        259,
+        298,
+        336
+    ],
+    "img/choose_ego_accessory.png": [
+        195,
+        258,
+        235,
+        311
+    ],
+    "img/event/skip.png": [
+        858,
+        493,
+        85,
+        43
+    ],
+    "img/event/option.png": [
+        1075,
+        207,
+        107,
+        63
+    ],
+    "img/event/continue.png": [
+        1533,
+        962,
+        326,
+        144
+    ],
+    "img/event/judge.png": [
+        1263,
+        498,
+        364,
+        66
+    ],
+    "img/combat/sinner/rodya.png": [
+        739,
+        555,
+        206,
+        299
+    ],
+    "img/combat/sinner/honglu.png": [
+        1332,
+        263,
+        206,
+        294
+    ],
+    "img/combat/sinner/faust.png": [
+        540,
+        259,
+        202,
+        296
+    ],
+    "img/combat/sinner/gregor.png": [
+        1336,
+        556,
+        200,
+        298
+    ],
+    "img/combat/precombat.png": [
+        1594,
+        876,
+        238,
+        102
+    ],
+    "img/combat/fighting.png": [
+        1733,
+        68,
+        67,
+        66
+    ],
+    "img/combat/start.png": [
+        1151,
+        837,
+        97,
+        113
+    ],
+    "img/combat/get_ego_gift.png": [
+        785,
+        294,
+        312,
+        56
+    ],
+    "img/entrance.png": [
+        1403,
+        431,
+        114,
+        29
+    ],
+    "img/shop.png": [
+        212,
+        723,
+        164,
+        73
+    ],
+    "img/combat/select_reward_card.png": [
+        1363,
+        223,
+        206,
+        62
+    ]
+}
