@@ -1,128 +1,134 @@
 {
-    "img/main_interface.png": [
-        1373,
-        154,
-        510,
-        135
+    "img/outside/glass_window.png": [
+        1319,
+        136,
+        550,
+        173
     ],
-    "img/drivers_seat.png": [
-        1380,
-        207,
-        452,
-        154
+    "img/outside/drivers_seat.png": [
+        1327,
+        147,
+        539,
+        235
     ],
-    "img/choose_team.png": [
-        104,
-        458,
-        172,
-        35
+    "img/prepare/entrance.png": [
+        1341,
+        385,
+        204,
+        93
     ],
-    "img/choose_team2.png": [
-        1612,
-        824,
-        129,
-        52
+    "img/prepare/choose_team.png": [
+        73,
+        415,
+        234,
+        108
     ],
-    "img/choose_starlight.png": [
+    "img/prepare/starlight.png": [
+        194,
+        220,
+        374,
+        405
+    ],
+    "img/prepare/choose_ego_accessory.png": [
+        171,
         224,
-        259,
-        298,
-        336
-    ],
-    "img/choose_ego_accessory.png": [
-        195,
-        258,
-        235,
-        311
-    ],
-    "img/event/skip.png": [
-        858,
-        493,
-        85,
-        43
-    ],
-    "img/event/option.png": [
-        1075,
-        207,
-        107,
-        63
-    ],
-    "img/event/continue.png": [
-        1533,
-        962,
-        326,
-        144
-    ],
-    "img/event/judge.png": [
-        1263,
-        498,
-        364,
-        66
-    ],
-    "img/combat/sinner/rodya.png": [
-        739,
-        555,
-        206,
-        299
-    ],
-    "img/combat/sinner/honglu.png": [
-        1332,
-        263,
-        206,
-        294
-    ],
-    "img/combat/sinner/faust.png": [
-        540,
-        259,
-        202,
-        296
-    ],
-    "img/combat/sinner/gregor.png": [
-        1336,
-        556,
-        200,
-        298
-    ],
-    "img/combat/precombat.png": [
-        1594,
-        876,
-        238,
-        102
-    ],
-    "img/combat/fighting.png": [
-        1733,
-        68,
-        67,
-        66
-    ],
-    "img/combat/start.png": [
-        1151,
-        837,
-        97,
-        113
+        291,
+        372
     ],
     "img/combat/get_ego_gift.png": [
-        785,
-        294,
-        312,
-        56
+        654,
+        219,
+        577,
+        166
     ],
-    "img/entrance.png": [
-        1403,
-        431,
-        114,
-        29
+    "img/explore/choose_card_pack.png": [
+        828,
+        128,
+        397,
+        178
     ],
-    "img/shop.png": [
-        212,
-        723,
-        164,
-        73
+    "img/explore/enter.png": [
+        1475,
+        736,
+        406,
+        217
+    ],
+    "img/event/skip.png": [
+        776,
+        445,
+        230,
+        130
+    ],
+    "img/event/option.png": [
+        967,
+        163,
+        331,
+        138
+    ],
+    "img/event/ego_accessory.png": [
+        962,
+        180,
+        823,
+        754
+    ],
+    "img/event/continue.png": [
+        1437,
+        924,
+        469,
+        206
+    ],
+    "img/event/judge.png": [
+        1444,
+        542,
+        316,
+        219
+    ],
+    "img/combat/precombat.png": [
+        1539,
+        845,
+        322,
+        159
+    ],
+    "img/combat/precombat_unselected.png": [
+        667,
+        475,
+        305,
+        423
+    ],
+    "img/combat/give_command.png": [
+        1075,
+        783,
+        793,
+        246
+    ],
+    "img/combat/fighting.png": [
+        1639,
+        37,
+        208,
+        107
+    ],
+    "img/loading/combat_tips.png": [
+        1499,
+        322,
+        402,
+        460
+    ],
+    "img/explore/in_shop.png": [
+        160,
+        687,
+        246,
+        128
     ],
     "img/combat/select_reward_card.png": [
-        1363,
-        223,
-        206,
-        62
+        398,
+        151,
+        832,
+        170
+    ],
+    "img/combat/acquire_ego_accessory.png": [
+        247,
+        212,
+        1489,
+        158
     ]
 }
