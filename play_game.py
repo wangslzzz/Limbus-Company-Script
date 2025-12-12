@@ -10,17 +10,18 @@ states = [
     eve_2,  # 点继续按钮
     eve_3,  # 事件判定
     eve_4,  # 点继续按钮
+    oth_1,  # 未领取奖励
     comb_4, # 获得ego饰品奖励
     comb_5, # 挑选奖励卡
     exp_2,  # 商店
     exp_3,  # 选择卡包
-    comb_3, # 战前准备
-    comb_7, # 战前准备但未选择人格
     comb_6, # 选择卡包
     out_1,  # 玻璃窗
     out_2,  # 驾驶席
     pre_1,  # 镜牢入口
     pre_2,  # 选择镜牢队伍
+    comb_7, # 战前准备但未选择人格
+    comb_3,  # 战前准备
     pre_3,  # 选择星光
     pre_4,  # 选择镜牢入口ego饰品
     exp_4,  # 镜牢胜利
@@ -36,7 +37,7 @@ def judge_react():
             return state
 
 
-def play_game(react_times=500):
+def play_game(react_times=2000):
     print('======== 开始运行 ========')
     click_top()
 
@@ -52,6 +53,8 @@ def play_game(react_times=500):
         log.append((info, run_time))
         last_time = complete_time
 
+        if state == exp_4: break # 胜利
+
         if i % 1 == 0:
             print(f'{info + " " * (20 - real_len(info))} |   run time: {run_time:.3f}s')
 
@@ -66,6 +69,7 @@ def play_game(react_times=500):
         else : data[info] = [run_time]
 
     print('数据总结：')
+    print(f'- 总共反应次数：{len(log)}')
     print(f'- 总共运行时间：{total_time}s\n')
     print('各界面类型出现次数：')
     for info in data:

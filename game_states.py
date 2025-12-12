@@ -1,9 +1,19 @@
+from collections.abc import Callable
 from functools import partial
-import time
-import pyautogui
-from state import State
-from utils import is_interface, click_image, drag
-from react import explore_react, option_react
+from card_pack import choose_card_pack
+from react import *
+from utils import is_interface
+
+
+class State:
+    def __init__(self, name, condition: Callable[[], bool], action: Callable):
+        self.name = name
+        self.condition = condition
+        self.action = action
+
+    def __repr__(self):
+        return f'State({self.name})'
+
 
 # 镜牢外
 
@@ -84,10 +94,7 @@ exp_2 = State(
 exp_3 = State(
     name='选择卡包',
     condition=partial(is_interface, image_paths='img/explore/choose_card_pack.png'),
-    action=lambda: (
-        drag(sx=957, sy=566, ex=962, ey=912),
-        time.sleep(3)
-    )
+    action=choose_card_pack
 )
 
 exp_4 = State(
@@ -133,12 +140,7 @@ eve_3 = State(
 eve_4 = State(
     name='点skip',
     condition=partial(is_interface, image_paths='img/event/skip.png'),
-    action=lambda: (
-        click_image('img/event/skip.png'),
-        pyautogui.moveTo(800, 300),
-        click_image('img/event/skip.png'),
-        pyautogui.moveTo(800, 300),
-    )
+    action=skip_react
 )
 
 # 战斗中
@@ -212,4 +214,12 @@ loa_1 = State(
     name='少女祈祷中',
     condition=partial(is_interface, image_paths='img/loading/combat_tips.png'),
     action=lambda: time.sleep(1)
+)
+
+# 其他界面
+
+oth_1 = State(
+    name='未领取奖励',
+    condition=partial(is_interface, image_paths='img/otherUI/unclaimed_reward.png'),
+    action=lambda: pyautogui.click(800, 745)
 )

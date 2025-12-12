@@ -30,10 +30,10 @@
         405
     ],
     "img/prepare/choose_ego_accessory.png": [
-        171,
+        833,
         224,
-        291,
-        372
+        304,
+        378
     ],
     "img/combat/get_ego_gift.png": [
         654,
@@ -96,10 +96,10 @@
         423
     ],
     "img/combat/give_command.png": [
-        1075,
-        783,
-        793,
-        246
+        761,
+        787,
+        1093,
+        252
     ],
     "img/combat/fighting.png": [
         1639,
@@ -130,5 +130,17 @@
         212,
         1489,
         158
+    ],
+    "img/explore/victory.png": [
+        1406,
+        139,
+        456,
+        192
+    ],
+    "img/otherUI/unclaimed_reward.png": [
+        645,
+        429,
+        635,
+        189
     ]
 }

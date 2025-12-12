@@ -69,6 +69,7 @@ def click_image(image_path):
     pyautogui.click(*center)
     time.sleep(0.5)
 
+
 def real_len(string):
     length = 0
     for char in string:
