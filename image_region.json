@@ -90,10 +90,10 @@
         159
     ],
     "img/combat/precombat_unselected.png": [
-        667,
-        475,
-        305,
-        423
+        515,
+        244,
+        234,
+        327
     ],
     "img/combat/give_command.png": [
         761,
@@ -142,5 +142,11 @@
         429,
         635,
         189
+    ],
+    "img/otherUI/select_personality.png": [
+        136,
+        68,
+        178,
+        113
     ]
 }

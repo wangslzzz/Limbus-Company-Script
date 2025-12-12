@@ -62,6 +62,7 @@ def option_react():
         click_image('img/event/ego_accessory.png')
     except pyautogui.ImageNotFoundException:
         pyautogui.click(1438, 388)
+    time.sleep(1)
 
 def skip_react():
     try:

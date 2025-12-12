@@ -198,13 +198,17 @@ comb_7 = State(
     name='战前准备但未选择人格',
     condition=partial(is_interface, image_paths='img/combat/precombat_unselected.png'),
     action=lambda: (
-        pyautogui.click(837, 703),
+        pyautogui.click(634, 397),
         time.sleep(0.5),
         pyautogui.click(1437, 409),
         time.sleep(0.5),
-        pyautogui.click(634, 397),
+        pyautogui.click(1242, 419),
         time.sleep(0.5),
-        pyautogui.click(1430, 694)
+        pyautogui.click(438, 709),
+        time.sleep(0.5),
+        pyautogui.click(641, 705),
+        time.sleep(0.5),
+        pyautogui.click(448, 407),
     )
 )
 
@@ -222,4 +226,10 @@ oth_1 = State(
     name='未领取奖励',
     condition=partial(is_interface, image_paths='img/otherUI/unclaimed_reward.png'),
     action=lambda: pyautogui.click(800, 745)
+)
+
+oth_2 = State(
+    name='选择人格',
+    condition=partial(is_interface, image_paths='img/otherUI/select_personality.png'),
+    action=lambda: pyautogui.click(103, 135)
 )

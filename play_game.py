@@ -21,10 +21,11 @@ states = [
     pre_1,  # 镜牢入口
     pre_2,  # 选择镜牢队伍
     comb_7, # 战前准备但未选择人格
-    comb_3,  # 战前准备
+    comb_3, # 战前准备
     pre_3,  # 选择星光
     pre_4,  # 选择镜牢入口ego饰品
     exp_4,  # 镜牢胜利
+    oth_2,  # 选择人格
 ]
 
 
@@ -37,7 +38,7 @@ def judge_react():
             return state
 
 
-def play_game(react_times=2000):
+def play_game(react_times=2500):
     print('======== 开始运行 ========')
     click_top()
 
@@ -55,7 +56,7 @@ def play_game(react_times=2000):
 
         if state == exp_4: break # 胜利
 
-        if i % 1 == 0:
+        if i % 10 == 0:
             print(f'{info + " " * (20 - real_len(info))} |   run time: {run_time:.3f}s')
 
     print('======== 运行结束 ========\n')
